@@ -13,6 +13,10 @@
         "gerencianet/gerencianet-sdk-php": "1.*",
         "illuminate/support": ">=5.0 ^5.2"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "orchestra/testbench": "~3.0"
+    },
     "autoload" : {
         "psr-4" : {
             "Jgustavo99\\Gerencianet\\": "src/Jgustavo99/Gerencianet/"
