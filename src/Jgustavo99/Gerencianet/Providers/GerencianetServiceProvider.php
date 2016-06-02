@@ -1,6 +1,6 @@
 <?php
 
-namespace GerencianetLaravel5;
+namespace Jgustavo99\Gerencianet\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Gerencianet\Gerencianet;
