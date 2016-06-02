@@ -15,7 +15,7 @@
     },
     "autoload" : {
         "psr-4" : {
-            "Jgustavo99\\Gerencianet\\": "src/GerencianetLaravel5"
+            "Jgustavo99\\Gerencianet\\": "src/Jgustavo99/Gerencianet/"
         }
     }
 }
