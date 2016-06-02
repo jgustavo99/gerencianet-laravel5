@@ -8,7 +8,6 @@
             "email": "joaogustavo.b@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "gerencianet/gerencianet-sdk-php": "1.*",
         "illuminate/support": "~5.1"
