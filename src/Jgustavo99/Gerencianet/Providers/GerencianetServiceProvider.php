@@ -9,7 +9,7 @@ class GerencianetServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        $this->publishes([__DIR__ . '/../../resources/config/gerencianet.php' => config_path('gerencianet.php')]);
+        $this->publishes([__DIR__ . '/../../../../resources/config/gerencianet.php' => config_path('gerencianet.php')]);
     }
 
     public function register()
