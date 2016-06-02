@@ -1,6 +1,7 @@
 {
     "name": "jgustavo99/gerencianet-laravel5",
     "description": "Integração da Gerencianet SDK no Laravel 5",
+    "keywords": ["Gerencianet", "SDK", "Laravel"]
     "license": "MIT",
     "authors": [
         {
