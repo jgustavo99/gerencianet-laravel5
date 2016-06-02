@@ -1,6 +1,7 @@
 {
     "name": "jgustavo99/gerencianet-laravel5",
     "description": "Integração da Gerencianet SDK no Laravel 5",
+    "keywords": ["Gerencianet", "SDK", "Laravel"],
     "license": "MIT",
     "authors": [
         {
@@ -8,14 +9,13 @@
             "email": "joaogustavo.b@hotmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "gerencianet/gerencianet-sdk-php": "1.*",
-        "illuminate/support": "~5.1"
+        "illuminate/support": ">=5.0 ^5.2"
     },
     "autoload" : {
         "psr-4" : {
-            "GerencianetLaravel5\\": "src/GerencianetLaravel5/"
+            "Jgustavo99\\Gerencianet\\": "src/GerencianetLaravel5"
         }
     }
 }
