@@ -8,7 +8,7 @@ use Jgustavo99\Gerencianet\Tests\AbstractTestCase;
 class FacadeTest extends AbstractTestCase
 {
     public function test_container_instance () {
-        $this->assertInstanceOf('Gerencianet\Gerencianet', app('Gerencianet'));
+        $this->assertInstanceOf('Gerencianet\Gerencianet', app('Gerencianet\Gerencianet'));
     }
     
     public function test_facade_instance () {

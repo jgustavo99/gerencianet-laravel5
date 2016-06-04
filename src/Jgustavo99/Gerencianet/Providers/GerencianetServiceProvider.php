@@ -14,7 +14,7 @@ class GerencianetServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('Gerencianet', function () {
+        $this->app->bind('Gerencianet\Gerencianet', function () {
             return new Gerencianet([
                 'client_id' => config('gerencianet.client_id'),
                 'client_secret' => config('gerencianet.client_secret'),
